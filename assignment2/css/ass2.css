@@ -3,7 +3,7 @@ h2 {
 }
 
 body{
-    background-image: url(pic.jpg);
+    background-image: url(images/pic.jpg);
     height: 10vh;
     background-size: contain;
     background-position: center;
@@ -36,20 +36,26 @@ body{
     font-size: auto;
 }
 
-.form button{
+#btn{
     font-family: "roboto", sans-serif;
     text-emphasis: 15%;
     width: 100%;
     border: 0;
-    padding: 15px;
+    padding: 5%;
     font-size: 14px;
     cursor: pointer;
+}
+.form button{
+    font-style: initial;
+    widows: 5px;
+    cursor: pointer;
+    width: 30%;
+    border: 0;
 }
 
 .form label{
     display: inline;
     position: relative;
     cursor: pointer;
-    font-size: 15px;
-    margin: auto;
+    font-size: 14px;
 }
