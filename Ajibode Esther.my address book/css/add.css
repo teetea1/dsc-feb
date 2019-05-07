@@ -1,0 +1,25 @@
+body{
+    background-color: powderblue;
+    margin: 25px;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+.buton{
+    border:2px solid maroon;
+    border-radius: 5px;
+    font: 1em sans-serif;
+    cursor: pointer;
+}
+
+.add_new_contact{
+    text-align: center;
+}
+
+.add_new_contact input{
+    border: 2px dotted grey;
+    border-radius: 5px;
+}
